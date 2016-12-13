@@ -1,0 +1,8 @@
+---
+-hosts : localhost
+ tasks :
+    -name : Installing Apache2
+       Package :
+	name : apache
+	state : latest
+
