@@ -1,7 +1,7 @@
 ---
   -hosts : localhost
    tasks 
-     -name  : "Installing Apache2"
+     -name   "Installing Apache2"
         Package :
         	 name   : apache
 	         state  : latest
