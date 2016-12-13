@@ -3,6 +3,6 @@
    tasks 
      -name   "Installing Apache2"
         Package 
-        	 -Name   : apache
+        	  name   : Apache2
 	          State  : latest
 
