@@ -1,0 +1,8 @@
+---
+- hossts: localhost
+  tasks:
+  roles:
+  - ec2-instance
+
+
+

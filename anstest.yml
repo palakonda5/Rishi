@@ -1,8 +1,8 @@
 ---
- - hosts : localhost
-   tasks 
-     -name   "Installing Apache2"
-        Package 
-       	  name   Apache2
-          State  latest
-
+- hosts: localhost
+  tasks:
+  - name: installing apache2
+    apt:
+     name: apache2
+     state: present
+    sudo: yes
